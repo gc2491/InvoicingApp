@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<p:FatturaElettronicaSemplificata versione="FSM10" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2 https://www.fatturapa.gov.it/export/fatturazione/sdi/fatturapa/v1.2.1/Schema_del_file_xml_FatturaPA_versione_1.2.1.xsd" xmlns:p="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.0">
+  <FatturaElettronicaHeader>
+        <DatiTrasmissione>
+            <IdTrasmittente>
+                <IdPaese>IT</IdPaese>
+                <IdCodice>01234567890</IdCodice>
+            </IdTrasmittente>
+            <ProgressivoInvio>00001</ProgressivoInvio>
+            <FormatoTrasmissione>FSM10</FormatoTrasmissione>
+            <CodiceDestinatario>AAAAAAA</CodiceDestinatario>
+        </DatiTrasmissione>
+        <CedentePrestatore>
+            <IdFiscaleIVA>
+                <IdPaese>IT</IdPaese>
+                <IdCodice>01234567891</IdCodice>
+            </IdFiscaleIVA>
+            <Denominazione>OMEGA SRL</Denominazione>
+            <RegimeFiscale>RF19</RegimeFiscale>
+            <Sede>
+                <Indirizzo>VIALE FIRENZE 8</Indirizzo>
+                <CAP>04800</CAP>
+                <Comune>TORINO</Comune>
+                <Provincia>TR</Provincia>
+                <Nazione>IT</Nazione>
+            </Sede>
+        </CedentePrestatore>
+        <CessionarioCommittente>
+            <IdentificativiFiscali>
+                <IdFiscaleIVA>
+                    <IdPaese>IT</IdPaese>
+                    <IdCodice>01234567890</IdCodice>
+                </IdFiscaleIVA>
+            </IdentificativiFiscali>
+            <AltriDatiIdentificativi>
+                <Denominazione>ALPHA SRL</Denominazione>
+                <Sede>
+                    <Indirizzo>VIA MINORE 21-A</Indirizzo>
+                    <CAP>00145</CAP>
+                    <Comune>TORINO</Comune>
+                    <Provincia>TR</Provincia>
+                    <Nazione>IT</Nazione>
+                </Sede>
+                <RappresentanteFiscale>
+                    <DatiAnagrafici>
+                        <IdFiscaleIVA>
+                            <IdPaese>IT</IdPaese>
+                            <IdCodice>00667788990</IdCodice>
+                        </IdFiscaleIVA>
+                        <CodiceFiscale>BNCCRL99A99H501Y</CodiceFiscale>
+                        <Anagrafica>
+                            <Nome>Bianchi</Nome>
+                            <Cognome>Carlo</Cognome>
+                            <Titolo>Avv.</Titolo>
+                        </Anagrafica>
+                    </DatiAnagrafici>
+                </RappresentanteFiscale>
+            </AltriDatiIdentificativi>
+        </CessionarioCommittente>
+    </FatturaElettronicaHeader>
+    <FatturaElettronicaBody>
+        <DatiGenerali>
+            <DatiGeneraliDocumento>
+                <TipoDocumento>TD07</TipoDocumento>
+                <Divisa>EUR</Divisa>
+                <Data>2021-01-12</Data>
+                <Numero>2333</Numero>
+            </DatiGeneraliDocumento>
+        </DatiGenerali>
+        <DatiBeniServizi>
+            <Descrizione>PRIMO ELEMENTO FORNITO</Descrizione>
+            <Importo>5.00</Importo>
+            <DatiIVA>
+                <Imposta>1.10</Imposta>
+                <Aliquota>22.00</Aliquota>
+            </DatiIVA>
+        </DatiBeniServizi>
+        <DatiBeniServizi>
+            <Descrizione>PRIMO ELEMENTO FORNITO</Descrizione>
+            <Importo>10.00</Importo>
+            <DatiIVA>
+                <Imposta>2.20</Imposta>
+                <Aliquota>22.00</Aliquota>
+            </DatiIVA>
+        </DatiBeniServizi>
+    </FatturaElettronicaBody>
+</p:FatturaElettronicaSemplificata>
